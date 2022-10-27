@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+h1 {
+    margin: 2px;
+    color: white;
+}
+
+.h1 {
+    color: #5DEF92;
+}
+
+.box-one-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.password-one, .password-two {
+    background-color: #273549;
+    margin-bottom: 20px;
+    color: #10B981;
+    border: none;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 135px;
+    height: 50px;
+   
+}
+
+.password-one-content, .password-two-content {
+    color: #10B981;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;
+    border-radius: 6px;
+  
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -40px;
+
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+.container {
+    background-color: #1F2937;
+    margin: 50px;
+}
+
+.get-password {
+    background-color: #5DEF92;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.remove {
+    display: none;
+}
+
+#quantity {
+    padding: 6px;
+    font-weight: bold;
+}
+
+.password-lenght {
+    margin: 10px;
+}
